@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(158, 169, 169);
+}
+main {
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+}
+li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: none;
+    list-style: none;
+    width: 70px;
+    height: 40px;
+    margin: 7px;
+    border-radius: 5px 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(43, 109, 128);
+    transition: .5s;
+}
+li:hover , button:hover {
+    background-color: rgb(105, 166, 185);
+}
+
+h1 , h2 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2 {
+    margin-top: 10px;
+    margin-left: 95px;
+}
+button {
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 10px 10px;
+    color: white;
+    background-color:  rgb(43, 109, 128);
+    transition: .5s;
+}
+
+.week-days {
+    background-color: rgb(228, 98, 98);
+    width: 70px;
+    margin: 7px;
+    height: 20px;
+}
+.today {
+    background-color:  rgb(228, 98, 98);
+}
+.past-month,.next-month {
+    background-color: rgb(113, 141, 149);
+}
+#buttons-div {
+    margin: auto;
+    margin-top: 10px;
+    position: absolute;
+    left: 55%;
+}
+#month-and-year {
+    display: flex;
+}
+#main-section {
+    border: solid 2px rgb(228, 98, 98);
+    border-radius:10px 10px ;
+    text-align: center;
+    background-color: rgb(100, 123, 123);
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.21);
+    -moz-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.21);
+    box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.21);
+}
+#day-saction {
+    display: flex;
+    margin-top: 5px;
+    border-bottom: 2px solid  rgb(228, 98, 98);
+}
+#date-section {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px ;
+    margin-left: 2px;
+}
